@@ -1,0 +1,30 @@
+{
+  "name": "vue2-composition-router",
+  "version": "1.0.0",
+  "description": "Helper functions for vue router with vue 2 and composition api",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luminisward/vue2-composition-router.git"
+  },
+  "author": "luminisward",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/lodash": "^4.14.178",
+    "@vue/composition-api": "^1.4.3",
+    "typescript": "^4.5.4",
+    "vue": "^2.6.14",
+    "vue-router": "^3.5.3"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "path-to-regexp": "^1.8.0"
+  },
+  "peerDependencies": {
+    "@vue/composition-api": "^1",
+    "vue-router": "^3"
+  }
+}
