@@ -1,6 +1,6 @@
 {
   "name": "vue2-composition-router",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Helper functions for vue router with vue 2 and composition api",
   "main": "dist/index.js",
   "scripts": {

@@ -31,7 +31,7 @@ export const useRoute = () => {
       if (isEqual(value, old)) {
         return
       }
-      router.replace({...value, name: value.name ?? undefined })
+      router.replace({ ...value, name: value.name ?? undefined })
     },
   })
 }
@@ -113,9 +113,7 @@ export const useRouteParamOrQuery = (name: string) => {
           const { [name]: _, ...rest } = queries.value
           queries.value = rest
         } else {
-          if (!Array.isArray(val)) {
-            val = [val]
-          }
+          // @ts-ignore
           queries.value = { ...queries.value, [name]: val }
         }
       }
