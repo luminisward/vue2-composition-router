@@ -1,5 +1,5 @@
 import { computed, getCurrentInstance } from '@vue/composition-api'
-import isEqual from 'lodash/isEqual'
+import { isEqual } from 'lodash-es'
 import pathToRegexp from 'path-to-regexp'
 import { Route } from 'vue-router'
 import { Dictionary } from 'vue-router/types/router'
