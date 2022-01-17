@@ -78,7 +78,7 @@ export default {
 
 `useRouteParams` will parse current route config path and pick up dynamic route params automatically.
 
-## useRouteParamOrQuery
+### useRouteParamOrQuery
 
 Same as `useRouteParam` and `useRouteQuery`, but the difference is that it automatically bind param or query based on whether the route param includes the key name.
 
